@@ -1,9 +1,9 @@
 <?php
 // Verbindung zur Datenbank herstellen
-$servername = "awagadif.mysql.db.internal";
-$username = "awagadif_admin";
-$password = "GFbbKQ=hXY2R9R7H5RU!";
-$dbname = "awagadif_admin";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
